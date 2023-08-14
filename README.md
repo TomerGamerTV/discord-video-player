@@ -1,5 +1,5 @@
 <div align="center" id="top">
-  <img src="/assets/images/logo.png" alt="Tubecord" />
+  <img src="/assets/images/logo.png" alt="Tubecord" width="200" />
 
   &#xa0;
 
