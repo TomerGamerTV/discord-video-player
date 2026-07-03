@@ -1,28 +1,42 @@
 {
-  "NAME": "Tubecord",
-  "URL": "localhost",
-  "PORT": 443,
+  "NAME": "TubeCord",
+  "SLOGAN": "Russian Roulette But With Discord Videos",
+  "HOST": "localhost",
+  "PORT": 3000,
   "PAGE_CONTENT": {
-    "logo": "/assets/images/video_poster.jpg",
+    "logo": "/assets/images/logo.png",
     "buttons": {
       "topRow": {
-        "left": "tbd",
-        "right": "tbd"
+        "left": {
+          "text": "Invite our bot! (soon)",
+          "link": "https://youtu.be/27i42Jb1bPc?si=Azg1bfIZdR9f0qnL"
+        },
+        "right": {
+          "text": "Info"
+        }
       },
       "videoControls": {
-        "1L": "Button 1L",
-        "2L": "Button 2L",
-        "1R": "Button 1R",
-        "2R": "Button 2R"
+        "1L": "Last Video",
+        "2L": "More Actions",
+        "1R": "Next Video",
+        "2R": "Download Video"
       },
       "bottomRow": {
-        "left": "tbd",
-        "right": "tbd"
+        "left": {
+          "text": "Contribute!",
+          "link": "https://github.com/TubeCord/database/blob/main/README.md"
+        },
+        "right": {
+          "text": "GitHub",
+          "link": "https://github.com/TubeCord"
+        }
       }
     },
+    "footer": {
+      "text": "Made With <span class=\"hover:animate-pulse\">❤️</span> By <a href=\"https://out.spin.rip/home\" class=\"text-blue-400 hover:text-blue-500\">spin</a> and <a href=\"https://ko-fi.com/tomergamertv\" class=\"text-blue-400 hover:text-blue-500\">TomerGamerTV</a>"
+    },
     "dialog": {
-      "title": "Information about this site",
-      "message": "This site uses CDN links that have been gathered from Discord channels. They have been submitted by other users, and we do not actively check these links unless a specific link has been reported."
+      "_MOVED": "see: /assets/js/index.js"
     }
   }
 }

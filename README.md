@@ -6,28 +6,28 @@
   <!-- <a href="https://disctok.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Tubecord</h1>
-
+<h1 align="center">TubeCord</h1>
+<p align="center"><small>Russian Roulette But With Discord Videos 😂</small></p>
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/TomerGamerTV/discord-video-player?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/TubeCord/discord-video-player?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/TomerGamerTV/discord-video-player?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/TubeCord/discord-video-player?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/TomerGamerTV/discord-video-player?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/TubeCord/discord-video-player?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/TomerGamerTV/discord-video-player?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/TubeCord/discord-video-player?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/TomerGamerTV/discord-video-player?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/TubeCord/discord-video-player?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/TomerGamerTV/discord-video-player?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/TubeCord/discord-video-player?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/TomerGamerTV/discord-video-player?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/TubeCord/discord-video-player?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
 
 <h4 align="center">
-	🚧  Tubecord 🚀 Under construction...  🚧
+	🚧  TubeCord 🚀 Under construction...  🚧
 </h4>
 
 <hr>
@@ -37,15 +37,26 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#passport_control-contributing">Contributing</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="#authors" target="_blank">Authors</a>
+  <a href="#heart-authors">Authors</a> &#xa0; | &#xa0;
+  <a href="#warning-disclaimer">Disclaimer</a>
 </p>
 
 <br>
 
 ## :dart: About ##
 
-A website that will fetch a random Discord CDN link from our database, and play it in a video player.
+A website that will fetch random Discord CDN links from our database, and play it inside a website.
+
+## 🙏🏻 Donating ##
+
+This whole project was built by only 2 people on their free time, if you want to support us you can do it by donating on our ko-fi profiles:
+
+- [TomerGamerTV](https://feds.lol/TomerGamerTV)
+- [spinfal](https://buymeacoffee.com/spinn)
+
+If you would like to support the development like website hosting and domain name you can do that by donating to TomerGamerTV and mentioning that this is a donation for this project.
 
 ## :rocket: Technologies ##
 
@@ -64,7 +75,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 
 ```bash
 # Clone this project
-$ git clone https://github.com/TomerGamerTV/discord-video-player.git tubecord
+$ git clone https://github.com/TubeCord/discord-video-player.git tubecord
 
 # Access
 $ cd tubecord
@@ -75,16 +86,60 @@ $ pnpm install
 # Run the project
 $ pnpm start
 
-# The server will initialize @ <http://localhost:443>
+# The server will initialize @ <http://localhost:5173>
 ```
+
+## :passport_control: Contributing ##
+
+Thank you for your interest in contributing to this project! We welcome any contributions that can enhance the functionality and usability of our website and bot.
+
+For detailed instructions on how to grab and share video links, please refer to our [Contribution Guide](https://github.com/TubeCord/discord-video-player/wiki/Contribution-Guide) inside the Wiki. It provides step-by-step instructions and tips on how to effectively install, run, find and share video links.
+
+We appreciate your efforts in contributing to our project and helping us build a comprehensive video database. Your contributions will make a difference in providing a better user experience for all our users.
+
+If you have any questions or need further assistance, please don't hesitate to reach out to us through [GitHub Issues](https://github.com/TubeCord/discord-video-player/issues).
+
+We look forward to your contributions 🙏🏻
 
 ## :memo: License ##
 
 This project is licensed under MPL-2.0. For more details, see the [LICENSE](LICENSE.md) file.
 
 ## :heart: Authors ##
-- [TomerGamerTV](https://github.com/TomerGamerTV)
+
+- [TomerGamerTV](https://feds.lol/TomerGamerTV)
 - [spinfal](https://out.spin.rip/github)
+
+## :warning: Disclaimer ##
+
+Please note that we are not responsible for the links submitted by the users or the content displayed in the video player. It is the user's responsibility to ensure that the submitted links do not contain illegal or inappropriate material, and that they comply with Discord's Terms of Service, as the videos are hosted on Discord's CDN.
+
+We provide a platform for users to share and view video links, but we do not have control over the content of those links. Users should exercise caution and report any links that contain illegal material or grossly violate Discord's ToS.
+
+Additionally, we cannot guarantee the availability or functionality of the links submitted. Broken or outdated links may occasionally be present, and users should report any broken links they encounter.
+
+## Setup Notes (Discord CDN Proxy)
+
+- This app streams Discord CDN attachments through an internal proxy endpoint (`/stream`) to work around recent restrictions on hotlinking and cross-site playback.
+- No Discord account tokens are required or used.
+- Only `cdn.discordapp.com` and `media.discordapp.net` URLs are allowed.
+
+### Local Database
+
+- Random video selection reads from `../database/discord_cdn_links.txt` relative to the project root.
+- If the local file cannot be read, the app falls back to the GitHub list.
+
+### Range/Seeking Support
+
+- The proxy forwards `Range` requests so browser seeking remains functional.
+
+### Error Handling
+
+- When a video cannot be played due to CDN or network issues, a clear message is shown and you can skip to the next video.
+
+**Limitation of Liability**: By using our website and accessing the links shared by other users, you acknowledge and agree that you assume all risks and responsibilities associated with the content and usage of those links.
+
+If you come across any links that contain illegal material or grossly violate Discord's ToS, please report them to us through [GitHub](https://github.com/TubeCord/discord-video-player/issues) Issues or directly to Discord. We will take appropriate action to address the issue.
 
 &#xa0;
 
